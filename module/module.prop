@@ -1,7 +1,7 @@
-id=adguardcert
-name=AdGuard Certificate
-version=v2.1
-versionCode=36
-author=AdGuard
-description=Moves AdGuard's root CA certificate from the user certificate store to the system certificate store.
-updateJson=https://raw.githubusercontent.com/AdguardTeam/adguardcert/master/update.json
+id=movecert
+name=Move Certificates
+version=v3.0
+versionCode=30
+author=MoveCert
+description=Moves all root CA certificates from the user certificate store to the system certificate store.
+updateJson=https://raw.githubusercontent.com/chandlerhuff/movecerts/master/update.json

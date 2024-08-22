@@ -1,6 +1,6 @@
 {
-  "version": "v2.1",
-  "versionCode": 36,
-  "zipUrl": "https://github.com/AdguardTeam/adguardcert/releases/download/v2.1/adguardcert-v2.1.zip",
-  "changelog": "https://github.com/AdguardTeam/adguardcert/releases/tag/v2.1"
+  "version": "v3.0",
+  "versionCode": 30,
+  "zipUrl": "https://github.com/chandlerhuff/movecerts/releases/download/v3.0/movecert-v3.0.zip",
+  "changelog": "https://github.com/chandlerhuff/movecerts/releases/tag/v3.0"
 }

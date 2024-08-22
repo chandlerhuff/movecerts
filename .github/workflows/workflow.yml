@@ -24,7 +24,7 @@ jobs:
         uses: ncipollo/release-action@v1
         if: startsWith(github.ref, 'refs/tags/v')
         with:
-          artifacts: "adguardcert-*.zip"
+          artifacts: "movecert-*.zip"
           token: ${{ secrets.GITHUB_TOKEN }}
           generateReleaseNotes: true
           prerelease: ${{ contains(github.ref, '-') }}
@@ -38,9 +38,9 @@ jobs:
         uses: actions/upload-artifact@v3
         if: github.event_name == 'pull_request'
         with:
-          name: adguardcert module build
+          name: movecert module build
           path: |
-            adguardcert-*.zip
+            movecert-*.zip
             README.md
             pull_request_url.txt
 
